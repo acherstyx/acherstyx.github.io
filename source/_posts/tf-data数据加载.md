@@ -5,21 +5,14 @@ tags:
  - Machine Learning
 categories:
  - 机器学习
+   - 数据处理
 ---
 
 `tf.data`用于构建Tensorflow的数据加载。  
 
 在`tf.data`中引入了`tf.data.Dataset`这样一个抽象来表示一系列的element，每一个元素都由一定的component组成。（如一个图像训练的样本可以看作一个element，其中包含了图像和标签两个component）  
 
-```mermaid
-graph LR;
-    D(Dataset)-->E1(Element)
-    D-->N1(...)
-    E1-->C1(Component)
-    E1-->N2(...)
-    classDef wbox fill:#fff,stroke:#fff;
-    class D,E1,N1,N2,C1 wbox;
-```
+<!--more-->
 
 ## 获取数据输入
 
