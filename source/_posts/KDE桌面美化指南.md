@@ -1,5 +1,5 @@
 ---
-title: KDE桌面美化指南
+title: KDE桌面美化指南 Part 1
 date: 2020-06-30T18:45:02+08:00
 tags:
   - Linux
@@ -13,7 +13,17 @@ categories:
 
 同时，用了半个学期的Manjaro终究还是有硬件兼容问题，所以重新回归了openSUSE Tumbleweed，正好借重新配置的机会谈一谈KDE下的主题美化，记录下配置过程。  
 
+目前Manjaro这边则已经配置完全，用Manjaro的状况来展示下最终的预期效果：
+
+![manjaro-final](KDE桌面美化指南/manjaro-final.png)
+
 <!--more-->
+
+![dock-view](KDE桌面美化指南/dock-view.png)
+
+![switch-virtual-desktop](KDE桌面美化指南/switch-virtual-desktop.png)
+
+
 
 ## Why KDE?
 
