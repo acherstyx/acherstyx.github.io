@@ -99,7 +99,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/acherstyx/acherstyx.github.io.git
+  repo: git@github.com:AcherStyx/AcherStyx.github.io.git
   branch: master
 
 markdown_it_plus:
