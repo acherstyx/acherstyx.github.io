@@ -2,6 +2,10 @@
 title: Btrfs文件系统
 date: 2020-04-1T18:20:17+08:00
 tags:
+ - Linux
+categories:
+ - Linux
+	- 系统
 ---
 
 Btrfs文件系统已经逐渐被各种Linux发行版本支持，虽然其似乎还存在一些小问题（unstable），但是在其各种诱人的功能面前似乎并不那么重要。
