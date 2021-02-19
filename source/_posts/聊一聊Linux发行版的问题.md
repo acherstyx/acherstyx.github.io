@@ -2,6 +2,7 @@
 layout: posts
 title: 聊一聊Linux发行版的问题
 date: 2020-07-03 07:06:32
+updated: 2020-07-03 07:06:32
 tags:
  - Linux
 categories:

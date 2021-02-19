@@ -1,11 +1,13 @@
 ---
 title: KDE桌面美化指南 Part 1
 date: 2020-06-30T18:45:02+08:00
+updated: 2020-06-30T18:45:02+08:00
 tags:
   - Linux
 categories:
   - Linux
     - Theme
+index_img: /img/kde-bg.jpg
 ---
 
 在经历了Linux环境的持续动荡之后，终于再一次配好了博客的环境。  
@@ -22,8 +24,6 @@ categories:
 ![dock-view](KDE桌面美化指南/dock-view.png)
 
 ![switch-virtual-desktop](KDE桌面美化指南/switch-virtual-desktop.png)
-
-
 
 ## Why KDE?
 

@@ -1,6 +1,7 @@
 ---
 title: Systemd服务脚本
 date: 2020-07-07 02:13:11
+updated: 2020-07-07 02:13:11
 tags:
  - Linux
 categories:
@@ -44,7 +45,7 @@ systemctl的脚本存储在以下两个路径中：
 ...
 ```
 
-## 参数字段[^5]
+## 参数字段[^five]
 
 ### [Unit]
 
@@ -63,7 +64,7 @@ Wants=xxx.service		# 表示服务之间的弱依赖关系
 
 Requires不能保证服务之间执行的顺序，当前服务和Requires中的服务可能同时被激活运行。
 
-> i.e. If a unit foo.service requires a unit bar.service as configured with Requires= and no ordering is configured with After= or Before=, then both units will be started simultaneously and without any delay between them if foo.service is activated.[^1]
+> i.e. If a unit foo.service requires a unit bar.service as configured with Requires= and no ordering is configured with After= or Before=, then both units will be started simultaneously and without any delay between them if foo.service is activated.[^one]
 >
 > 在foo.service中定义了Requires=bar.service，表明foo.service依赖于bar.service，但是在启动的时候foo.service和bar.service完全可能同时开始运行，中间没有任何延迟。
 
@@ -113,13 +114,13 @@ ExecStart=/usr/local/test/bin/startup.sh	# 执行内容
 PrivateTmp=true		# 分配独立的临时空间
 ```
 
-**Type - 运行模式**[^3]
+**Type - 运行模式**[^three]
 
 运行模式的关键词和效果主要有以下这些：
 
 | Type    | 效果                                                         |
 | ------- | ------------------------------------------------------------ |
-| simple  | 默认值。使用这一类型会使得systemd认为你的服务不会fork，所以认为服务是立即执行的，当前进程的结束即代表了整个服务程序结束运行，会识别为退出状态。所以这一类型适合于那些只有单进程，会持续运行直至主进程退出的程序。[^4] |
+| simple  | 默认值。使用这一类型会使得systemd认为你的服务不会fork，所以认为服务是立即执行的，当前进程的结束即代表了整个服务程序结束运行，会识别为退出状态。所以这一类型适合于那些只有单进程，会持续运行直至主进程退出的程序。[^four] |
 | forking | 一般服务都是使用这一个类型。这一模式下systemd会认为当前的服务会进行fork，所以主进程的退出不一定就意味着整个服务已经结束，因为服务可能作为子进程在后台正常运行着。使用这一类型应该同时指定`PIDFile=`，以便systemd能够跟踪主进程。 |
 | oneshot | 适用于只需要执行一次的服务、随后立即退出的服务。另外为了让systemd在服务退出之后仍然认为服务处于激活状态，需要同时设置，`RemainAfterExit=yes`。 |
 | notify  | 和simple相同，除了约定在服务就绪之后会向systemd发送一个信号，通知的实现由 libsystemd-daemon.so 提供。 |
@@ -167,15 +168,15 @@ PrivateTmp=true		# 分配独立的临时空间
 WantedBy=multi-user.target
 ```
 
-**WantedBy**[^6]
+**WantedBy**[^six]
 
 用于表示服务所属的target，从而配置开机启动。一般常用的只有`multi-user.target`和`graphical.target`（依赖于`multi-user.target`）。
 
 ## 相关参考
 
-[^1]:关于`After=`和`Requires=`区别的讨论：[In systemd, what's the difference between After= and Requires=? - Server Fault](https://serverfault.com/questions/812584/in-systemd-whats-the-difference-between-after-and-requires)
-[^2]: 在一个服务因为依赖出问题而停止了之后，如何在依赖恢复后恢复运行：[systemd unit stops when required unit is stopped, but then does not start again when required unit starts - Server Fault](https://serverfault.com/questions/914181/systemd-unit-stops-when-required-unit-is-stopped-but-then-does-not-start-again)
-[^3]: 啥都有的Arch Wiki：[systemd (简体中文) - ArchWiki](https://wiki.archlinux.org/index.php/Systemd_(简体中文))
-[^4]: 关于simple和forking模式的区别：[redhat enterprise linux - systemd forking vs simple? - Super User](https://superuser.com/questions/1274901/systemd-forking-vs-simple/1274913)
-[^5]: 一篇系统性介绍的文章：[Systemd 入门教程：实战篇](https://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-part-two.html)
-[^6]: 一篇介绍了些参数的文章：[Centos7 自定义systemctl服务脚本](https://www.cnblogs.com/wang-yc/p/8876155.html)
+[^one]:关于`After=`和`Requires=`区别的讨论：[In systemd, what's the difference between After= and Requires=? - Server Fault](https://serverfault.com/questions/812584/in-systemd-whats-the-difference-between-after-and-requires)
+[^two]: 在一个服务因为依赖出问题而停止了之后，如何在依赖恢复后恢复运行：[systemd unit stops when required unit is stopped, but then does not start again when required unit starts - Server Fault](https://serverfault.com/questions/914181/systemd-unit-stops-when-required-unit-is-stopped-but-then-does-not-start-again)
+[^three]: 啥都有的Arch Wiki：[systemd (简体中文) - ArchWiki](https://wiki.archlinux.org/index.php/Systemd_(简体中文))
+[^four]: 关于simple和forking模式的区别：[redhat enterprise linux - systemd forking vs simple? - Super User](https://superuser.com/questions/1274901/systemd-forking-vs-simple/1274913)
+[^five]: 一篇系统性介绍的文章：[Systemd 入门教程：实战篇](https://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-part-two.html)
+[^six]: 一篇介绍了些参数的文章：[Centos7 自定义systemctl服务脚本](https://www.cnblogs.com/wang-yc/p/8876155.html)

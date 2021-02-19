@@ -1,6 +1,7 @@
 ---
 title: Linux系统恢复记录
 date: 2020-02-22T17:55:34+08:00
+updated: 2020-02-22T17:55:34+08:00
 tags:
  - Linux
 categories:
