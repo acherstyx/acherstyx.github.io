@@ -1,7 +1,7 @@
 ---
 title: KDE桌面美化指南 Part 1
 date: 2020-06-30T18:45:02+08:00
-updated: 2020-06-30T18:45:02+08:00
+updated: 2021-02-20 22:45:49
 tags:
   - 主题
 categories:
@@ -145,6 +145,7 @@ latte-dock只需要装一个额外的小部件：
 - **Netspeed Widget**：网速显示。
 - **系统符合查看器**：自带的，不过为了适合主题要改下其设置，调整下颜色方案。
 - **Weather Widge**：一个UI不错的天气插件，特别是带了磨砂后看起来很赞。需要设置以下地理位置，并且勾上 `Appearance>Render meteogram for yr.no`，否则雨量的图形会是一片白的背景。
+> Warning: `yr.no`更新了网页之后，`Weather Widge`插件没有更新，已经废了，推荐使用插件中另一个`OWM`天气站点。
 - **系统托盘**：自带。
 - **Event Calendar**：可以同步Google日历。需要设置下时间的格式等，也同时带有类似的天气界面。
 
