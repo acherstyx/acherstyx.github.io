@@ -18,11 +18,11 @@
 
 # 用于浏览器标签的图标
 # Icon for browser tab
-favicon: /img/avatar.png
+favicon: /img/hexo.ico
 
 # 用于苹果设备的图标
 # Icon for Apple touch
-apple_touch_icon: /img/avatar.png
+apple_touch_icon: /img/hexo.ico
 
 # 浏览器标签页中的标题分隔符，效果： 文章名 - 站点名
 # Title separator in browser tab, eg: article - site
@@ -120,7 +120,7 @@ dark_mode:
   # 默认的选项（当用户手动切换后则不再按照默认模式），选择 `auto` 会优先遵循 prefers-color-scheme，其次按用户本地时间 18 点到次日 6 点之间进入暗色模式
   # Default option (when the visitor switches manually, the default mode is no longer followed), choosing `auto` will give priority to prefers-color-scheme, and then enter the dark mode from 18:00 to 6:00 in the visitor’s local time
   # Options: auto | light | dark
-  default: dark
+  default: light
 
 # 主题颜色配置，其他不生效的地方请使用自定义 css 解决，配色可以在下方链接中获得启发
 # Theme color, please use custom CSS to solve other colors, color schema can be inspired by the links below
@@ -379,8 +379,8 @@ footer:
 
     # 页面显示的文本，{}是数字的占位符（必须包含)，下同
     # Displayed text, {} is a placeholder for numbers (must be included), the same below
-    pv_format: "{} 👁"
-    uv_format: "{} 🐱"
+    pv_format: "{} 👁 (views)"
+    uv_format: "{} 🐱 (people)"
 
   # 国内大陆服务器的备案信息
   # For Chinese mainland website policy, other areas keep disable
@@ -778,7 +778,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/bg_home.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -800,7 +800,7 @@ about:
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:  # 打字机内容
-  avatar: /img/avatar.jpeg
+  avatar: /img/avatar.jpegavata
   name: "AcherStyx"
   introduce: "打工人"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码

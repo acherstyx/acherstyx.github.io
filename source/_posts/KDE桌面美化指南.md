@@ -3,7 +3,7 @@ title: KDE桌面美化指南 Part 1
 date: 2020-06-30T18:45:02+08:00
 updated: 2020-06-30T18:45:02+08:00
 tags:
-  - Linux
+  - 主题
 categories:
   - Linux
     - Theme
@@ -13,7 +13,7 @@ index_img: /img/kde-bg.jpg
 在经历了Linux环境的持续动荡之后，终于再一次配好了博客的环境。  
 在系统变更的过程中更迭了多次不同的发行版本，也尝试了许多次的主题美化，最终桌面美化的结果也大致稳定下来。
 
-同时，用了半个学期的Manjaro终究还是有硬件兼容问题，所以重新回归了openSUSE Tumbleweed，正好借重新配置的机会谈一谈KDE下的主题美化，记录下配置过程。  
+同时，用了半个学期的Manjaro终究还是有硬件兼容问题，所以重新回归了openSUSE Tumbleweed，正好借重新配置的机会谈一谈KDE下的主题美化，记录下配置过程。 
 
 目前Manjaro这边则已经配置完全，用Manjaro的状况来展示下最终的预期效果：
 
@@ -53,7 +53,6 @@ index_img: /img/kde-bg.jpg
 里面的内容和KDE下各类设置>获取主题中的内容是一致的，从中可以方便地寻找好的主题。
 
 ![kde-store](KDE桌面美化指南/kde-store.png)
-
 
 ## Step 1. 主题配置
 
@@ -112,13 +111,13 @@ sudo zypper in kvantum-manager kvantum-manager-lang
 
 然后需要安装一个Kvantum主题，这边依旧选择McMojave主题，可以从[KDE Store下载](https://store.kde.org/p/1304957)。  
 
-之后将下载下来的`tar.xz`压缩包解压，然后打开Kvantum Manager，选择这一个文件夹，安装主题。
+之后将下载下来的`tar.xz`压缩包解压，然后打开Kvantum Manager，选择这一个文件夹，安装主题。  
 
-![kvantum-install-theme](KDE桌面美化指南/kvantum-install-theme.png)
+![kvantum安装主题](KDE桌面美化指南/kvantum-install.jpg)
 
-接着将主题设置为McMojave，开始调整一些主题配置。在 合成&一般外观 里面选择忽略非活动状态，并降低窗口和菜单的透明度，即可获得很好的磨砂效果。
+接着将主题设置为McMojave，开始调整一些主题配置。在 合成&一般外观 里面选择忽略非活动状态，并降低窗口和菜单的透明度，即可获得很好的磨砂效果。  
 
-![kvantum-setting](KDE桌面美化指南/kvantum-setting.png)
+![kvantum设置](KDE桌面美化指南/kvantum-setting.png)
 
 ## Step 3. 桌面Dock和插件配置
 
