@@ -186,7 +186,7 @@ color:
 # 主题字体配置
 # Font
 font:
-  font_size: 19px
+  font_size: 15px
   font_family: sans-serif
   code_font_size: 95%
 
@@ -534,11 +534,11 @@ post:
 
     # 描述文字
     # Descriptive text before date
-    content: 更新于 
+    content: "Last Updated On: "
 
     # 是否使用相对时间表示，比如："3 天前"
     # If true, it will be a relative time, such as: "3 days ago"
-    relative: true
+    relative: false
 
   # 文章右侧目录
   # Table of contents (TOC)
