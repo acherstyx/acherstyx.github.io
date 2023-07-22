@@ -294,11 +294,11 @@ navbar:
   # Navigation bar menu. `key` is used to associate languages/*.yml. If there is no association, the value of `key` itself will be displayed; if `icon` is a css class, it can be omitted; adding `name` can force the display of the specified name
   menu:
     - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
-    - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
-    - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
+    # - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
+    # - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
-    - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
+    # - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
@@ -422,7 +422,7 @@ index:
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
-    text: "反正不会有人看不如随便写点。"
+    text: "(・ω・)ノ Hi~"
 
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
@@ -460,7 +460,7 @@ index:
   # Meta information of post
   post_meta:
     date: true
-    category: true
+    category: false
     tag: true
 
   # 文章通过 sticky 排序后，在首页文章标题前显示图标
@@ -800,9 +800,9 @@ about:
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:  # 打字机内容
-  avatar: /img/avatar.jpegavata
-  name: "AcherStyx"
-  introduce: "打工人"
+  avatar: /img/avatar.jpeg
+  name: "Yaojie Shen"
+  introduce: ""
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
@@ -849,12 +849,13 @@ links:
   banner_mask_alpha: 0.3
   subtitle:
   items:
-    - {
-      title: "ZER0-Nu1L",
-      intro: "某友人的Blog",
-      link: "https://www.zer0-nu1l.com/",
-      image: "https://www.zer0-nu1l.com/uploads/Profile.jpg"
-    }
+    # server is down
+    # - {
+    #   title: "ZER0-Nu1L",
+    #   intro: "某友人的Blog",
+    #   link: "https://www.zer0-nu1l.com/",
+    #   image: "https://www.zer0-nu1l.com/uploads/Profile.jpg"
+    # }
   # 友链的成员项
   # Member item of page
   # items:

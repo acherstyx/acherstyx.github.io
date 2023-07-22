@@ -7,7 +7,7 @@ tags:
 categories:
   - Linux
     - Theme
-index_img: /img/kde-bg-2.png
+# index_img: /img/kde-bg-2.png
 ---
 
 距离上次写美化过了好久，又回到了Manjaro（就折腾呗😂）。  

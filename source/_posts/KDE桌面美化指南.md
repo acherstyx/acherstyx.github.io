@@ -7,7 +7,7 @@ tags:
 categories:
   - Linux
     - Theme
-index_img: /img/kde-bg.jpg
+# index_img: /img/kde-bg.jpg
 ---
 
 在经历了Linux环境的持续动荡之后，终于再一次配好了博客的环境。  
