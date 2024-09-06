@@ -17,13 +17,13 @@ categories:
 
 目前Manjaro这边则已经配置完全，用Manjaro的状况来展示下最终的预期效果：
 
-![manjaro-final](KDE桌面美化指南/manjaro-final.png)
+![manjaro-final](images/manjaro-final.png)
 
 <!--more-->
 
-![dock-view](KDE桌面美化指南/dock-view.png)
+![dock-view](images/dock-view.png)
 
-![switch-virtual-desktop](KDE桌面美化指南/switch-virtual-desktop.png)
+![switch-virtual-desktop](images/switch-virtual-desktop.png)
 
 ## Why KDE?
 
@@ -41,7 +41,7 @@ categories:
 
 ## 初始桌面
 
-![kde-init-desktop](KDE桌面美化指南/kde-init-desktop.png)
+![kde-init-desktop](images/kde-init-desktop.png)
 
 相对来说，openSUSE的初始桌面其实也满不错的～
 
@@ -52,7 +52,7 @@ categories:
 
 里面的内容和KDE下各类设置>获取主题中的内容是一致的，从中可以方便地寻找好的主题。
 
-![kde-store](KDE桌面美化指南/kde-store.png)
+![kde-store](images/kde-store.png)
 
 ## Step 1. 主题配置
 
@@ -62,11 +62,11 @@ KDE设置中即提供了一系列的主题相关的配置，决定了总体的�
 
 全局主题使用[vinceliuice](https://github.com/vinceliuice)的McMojave LAF，这位国人dalao真的作了相当多很赞的主题QwQ。  
 
-![mocmojave-laf](KDE桌面美化指南/mocmojave-laf.png)
+![mocmojave-laf](images/mocmojave-laf.png)
 
 比较好的主题普遍都会有黑白两种不同的版本，这个按照个人的喜好选择。个人选择了黑系的主题，应为经常半夜写代码所以白色会觉得刺眼 `(ノへ￣、)` ，效果如下。全局主题会替换掉下面的Plasma样式、应用样式、颜色、窗口装饰以及图标，算是一个总体的配置方案。
 
-![mocmojave-laf-apply](KDE桌面美化指南/mocmojave-laf-apply.png)
+![mocmojave-laf-apply](images/mocmojave-laf-apply.png)
 
 需要注意的是直接通过设置提供的下载会比较慢，推荐配置好代理再下载。  
 
@@ -83,7 +83,7 @@ KDE设置中即提供了一系列的主题相关的配置，决定了总体的�
 
 这一个主题主要是影响使用GTK的程序的，KDE是Qt党，所以之前的配置大多只针对Qt有效。  
 
-![gtk-theme](KDE桌面美化指南/gtk-theme.png)
+![gtk-theme](images/gtk-theme.png)
 
 ### 5. 图标主题
 
@@ -93,13 +93,13 @@ KDE设置中即提供了一系列的主题相关的配置，决定了总体的�
 
 **La Capitaine**
 
-![la-capitaine](KDE桌面美化指南/la-capitaine.png)
+![la-capitaine](images/la-capitaine.png)
 
 **McMojave-circle**
 
 这一个主题的好处是缺失的图标会从numix-circle中继承，这样你只需要同时安装好numix-circle，就可以补全一部分缺失的图标。  
 
-![McMojave-Circle](KDE桌面美化指南/McMojave-Circle.png)
+![McMojave-Circle](images/McMojave-Circle.png)
 
 ## Step 2. 设置Kvantum
 
@@ -113,11 +113,11 @@ sudo zypper in kvantum-manager kvantum-manager-lang
 
 之后将下载下来的`tar.xz`压缩包解压，然后打开Kvantum Manager，选择这一个文件夹，安装主题。  
 
-![kvantum安装主题](KDE桌面美化指南/kvantum-install.jpg)
+![kvantum安装主题](images/kvantum-install.jpg)
 
 接着将主题设置为McMojave，开始调整一些主题配置。在 合成&一般外观 里面选择忽略非活动状态，并降低窗口和菜单的透明度，即可获得很好的磨砂效果。  
 
-![kvantum设置](KDE桌面美化指南/kvantum-setting.png)
+![kvantum设置](images/kvantum-setting.png)
 
 ## Step 3. 桌面Dock和插件配置
 
@@ -131,7 +131,7 @@ zypper in latte-dock
 
 现在你可以在桌面上 右键>添加部件，来为Latte Dock添加一些小部件，同样的你可以点击下方的按钮联网获取新的小部件。
 
-![add-widget](KDE桌面美化指南/add-widget.png)
+![add-widget](images/add-widget.png)
 
 latte-dock只需要装一个额外的小部件：
 
@@ -151,11 +151,11 @@ latte-dock只需要装一个额外的小部件：
 
 按照以上的配置后的顶栏效果如下：
 
-![top-bar-final](KDE桌面美化指南/top-bar-final.png)
+![top-bar-final](images/top-bar-final.png)
 
 接下来对Latte Dock进行配置，把想要的应用拖进取，左边添加一个自带的全屏形式的应用程序面板，右边则添加一个虚拟桌面调度器。
 
-![latte-dock-final](KDE桌面美化指南/latte-dock-final.png)
+![latte-dock-final](images/latte-dock-final.png)
 
 ## 小结
 
@@ -174,6 +174,5 @@ latte-dock只需要装一个额外的小部件：
 - ......（还差亿点）
 
 这些就之后再说～
-想到这里突然又想继续用之前的Manjaro了`(￣ε(#￣)☆╰╮o(￣皿￣///)`。
 
-真的全部配置完还是不容易，所以要好好珍惜系统，远离ubuntu，选用支持Btrfs的系统，特别是openSUSE这样带有业界最好的原生Btrfs快照备份设置的系统，设置好Btrfs备份，并按时做额外的分区备份。`（づ￣3￣）づ`
+真的全部配置完还是不容易，所以要好好珍惜系统，按时做额外的分区备份。`（づ￣3￣）づ`

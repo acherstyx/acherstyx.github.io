@@ -1,0 +1,59 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: "Yaojie's Site"
+theme: ["PaperMod"]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 0
+    - name: Post
+      url: /post
+      weight: 1
+    - name: Project
+      url: /project
+      weight: 2
+    - name: Publication
+      url: /publication
+      weight: 3
+
+params:
+  author: Yaojie Shen
+
+  defaultTheme: auto
+  disableSpecial1stPost: true
+
+  profileMode:
+    enabled: true
+    title: "Yaojie Shen" # optional default will be site title
+    subtitle: Currently a third-year Master's student at the Institute of Software, Chinese Academy of Sciences. Previously completed a Bachelor's degree at the University of Electronic Science and Technology of China (UESTC).
+    imageUrl: "images/avatar.jpg" # optional
+    imageTitle: "avatar" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+
+  socialIcons: # optional
+    - name: "GitHub"
+      url: "https://github.com/acherstyx"
+    - name: "GoogleScholar"
+      url: "https://scholar.google.com/citations?user=RPtepygAAAAJ"
+    - name: "LinkedIn"
+      url: https://www.linkedin.com/in/yaojie-shen-b03248200/
+    - name: "Email"
+      url: "mailto:SYJ.Micro@outlook.com"
+
+  homeInfoParams:
+    Title: "Yaojie Shen"
+    Content: ""
+
+  hideMeta: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
