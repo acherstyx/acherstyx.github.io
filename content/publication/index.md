@@ -38,8 +38,7 @@ AutoTransition: Learning to Recommend Video Transition Effects
 </tr>
 </table>
 
-
-**Last update:** 2024
+Last Updated: September 2024
 
 <style>
 tr, td, th {

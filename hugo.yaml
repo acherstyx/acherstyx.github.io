@@ -51,7 +51,7 @@ params:
     Title: "Yaojie Shen"
     Content: ""
 
-  hideMeta: true
+  hideMeta: false
 
 markup:
   goldmark:
