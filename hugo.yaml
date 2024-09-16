@@ -3,6 +3,7 @@ languageCode: en-us
 title: "Yaojie's Site"
 theme: ["PaperMod"]
 
+disablePathToLower: true
 enableInlineShortcodes: true
 enableRobotsTXT: true
 enableEmoji: true
