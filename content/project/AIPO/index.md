@@ -45,7 +45,7 @@ author: Yaojie Shen, Xinyao Wang, Yulei Niu, Ying Zhou, Lexin Tang, Libo Zhang, 
           <div class="column has-text-centered">
             <div class="publication-links">
               <span class="link-block">
-                <a href="https://arxiv.org/" class="external-link button is-normal is-rounded is-dark">
+                <a href="https://arxiv.org/pdf/2409.08845" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="fas fa-file-pdf"></i>
                   </span>
@@ -53,7 +53,7 @@ author: Yaojie Shen, Xinyao Wang, Yulei Niu, Ying Zhou, Lexin Tang, Libo Zhang, 
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://arxiv.org/" class="external-link button is-normal is-rounded is-dark">
+                <a href="https://arxiv.org/abs/2409.08845" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
                   </span>
@@ -65,7 +65,7 @@ author: Yaojie Shen, Xinyao Wang, Yulei Niu, Ying Zhou, Lexin Tang, Libo Zhang, 
                   <span class="icon">
                     <i class="fab fa-github"></i>
                   </span>
-                  <span>Code</span>
+                  <span>Code (coming soon)</span>
                 </a>
               </span>
             </div>
@@ -281,7 +281,7 @@ author: Yaojie Shen, Xinyao Wang, Yulei Niu, Ying Zhou, Lexin Tang, Libo Zhang, 
           models (up to 123B parameters). Explore our repositories:
         </p>
         <ul style='padding-top: 5px'>
-          <li><a href="https://github.com/bytedance/AIPO">AIPO</a></li>
+          <li><a href="https://github.com/bytedance/AIPO">AIPO</a> (coming soon)</li>
           <li>
             <a href="https://github.com/acherstyx/MM-Video">MM-Video</a>,
             <a href="https://github.com/acherstyx/hydra-torchrun-launcher">hydra-torchrun-launcher</a>, and
