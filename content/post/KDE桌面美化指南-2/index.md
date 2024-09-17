@@ -7,7 +7,8 @@ tags:
 categories:
   - Linux
     - Theme
-# index_img: /img/kde-bg-2.png
+aliases:
+  - /2021/02/20/KDE桌面美化指南-2/
 ---
 
 距离上次写美化过了好久，又回到了Manjaro。  
