@@ -2,6 +2,9 @@
 title: 'AIPO: Improving Training Objective for Iterative Preference Optimization'
 layout: project_page
 author: Yaojie Shen, Xinyao Wang, Yulei Niu, Ying Zhou, Lexin Tang, Libo Zhang, Fan Chen, Longyin Wen
+date: 2024-09-13
+aliases:
+  - /project/aipo/
 ---
 
 <!--more-->
@@ -65,7 +68,7 @@ author: Yaojie Shen, Xinyao Wang, Yulei Niu, Ying Zhou, Lexin Tang, Libo Zhang, 
                   <span class="icon">
                     <i class="fab fa-github"></i>
                   </span>
-                  <span>Code (coming soon)</span>
+                  <span>Code</span>
                 </a>
               </span>
             </div>
@@ -281,7 +284,7 @@ author: Yaojie Shen, Xinyao Wang, Yulei Niu, Ying Zhou, Lexin Tang, Libo Zhang, 
           models (up to 123B parameters). Explore our repositories:
         </p>
         <ul style='padding-top: 5px'>
-          <li><a href="https://github.com/bytedance/AIPO">AIPO</a> (coming soon)</li>
+          <li><a href="https://github.com/bytedance/AIPO">AIPO</a></li>
           <li>
             <a href="https://github.com/acherstyx/MM-Video">MM-Video</a>,
             <a href="https://github.com/acherstyx/hydra-torchrun-launcher">hydra-torchrun-launcher</a>, and
