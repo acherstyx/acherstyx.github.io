@@ -117,3 +117,9 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 至于输入法的配置，个人使用的是LibPinyin，另外在LibPinyin的设置中开了一些模糊音和词库，以及添加了搜狗的细胞词库，总的来说还凑合，词的提示不怎么智能就是了。云拼音建议打开。
 
 另外，一定要更新Fcitx以及其他的包到新版，旧的版本可能会有问题，比如细胞词库导入不了，或者云拼音出不来等等。
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Redirecting to https://yaojie-shen.github.io/post/KDE%E6%A1%8C%E9%9D%A2%E7%BE%8E%E5%8C%96%E6%8C%87%E5%8D%97-2/</title>
+<meta http-equiv="refresh" content="0; URL=https://yaojie-shen.github.io/post/KDE%E6%A1%8C%E9%9D%A2%E7%BE%8E%E5%8C%96%E6%8C%87%E5%8D%97-2/">
+<link rel="canonical" href="https://yaojie-shen.github.io/post/KDE%E6%A1%8C%E9%9D%A2%E7%BE%8E%E5%8C%96%E6%8C%87%E5%8D%97-2/">

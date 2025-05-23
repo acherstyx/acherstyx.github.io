@@ -32,15 +32,15 @@ params:
   profileMode:
     enabled: true
     title: "Yaojie Shen" # optional default will be site title
-    subtitle: Currently a third-year Master's student at the Institute of Software, Chinese Academy of Sciences. Previously completed a Bachelor's degree at the University of Electronic Science and Technology of China (UESTC).
-    imageUrl: "images/avatar.jpg" # optional
-    imageTitle: "avatar" # optional
-    imageWidth: 120 # custom size
-    imageHeight: 120 # custom size
+    # subtitle: Currently a third-year Master's student at the Institute of Software, Chinese Academy of Sciences. Previously completed a Bachelor's degree at the University of Electronic Science and Technology of China (UESTC).
+    # imageUrl: "images/avatar.jpg" # optional
+    # imageTitle: "avatar" # optional
+    # imageWidth: 120 # custom size
+    # imageHeight: 120 # custom size
 
   socialIcons: # optional
     - name: "GitHub"
-      url: "https://github.com/acherstyx"
+      url: "https://github.com/yaojie-shen"
     - name: "GoogleScholar"
       url: "https://scholar.google.com/citations?user=RPtepygAAAAJ"
     - name: "LinkedIn"

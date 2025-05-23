@@ -183,3 +183,9 @@ sudo snapper -c <config-name> create-config </path>
 [^some-info-about-subvolume-in-opensuse]: [关于openSUSE上的Btrfs结构的讨论 | LEAP 42.2 btrfs root filesystem subvolume structure](https://forums.opensuse.org/showthread.php/521277-LEAP-42-2-btrfs-root-filesystem-subvolume-structure)
 [^arch-wiki-btrfs-subvolume]: [子卷 | Btrfs (简体中文) - ArchWiki](https://wiki.archlinux.org/index.php/Btrfs_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#%E5%AD%90%E5%8D%B7)
 [^suse-restore-from-snapper]: [通过 Snapper 进行系统恢复和快照管理 | 管理指南 | SUSE Linux Enterprise Server 12 SP4](https://documentation.suse.com/zh-cn/sles/12-SP4/html/SLES-all/cha-snapper.html#sec-snapper-config)
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Redirecting to https://yaojie-shen.github.io/post/Btrfs%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/</title>
+<meta http-equiv="refresh" content="0; URL=https://yaojie-shen.github.io/post/Btrfs%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/">
+<link rel="canonical" href="https://yaojie-shen.github.io/post/Btrfs%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/">

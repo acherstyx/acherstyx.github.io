@@ -177,3 +177,9 @@ latte-dock只需要装一个额外的小部件：
 这些就之后再说～
 
 真的全部配置完还是不容易，所以要好好珍惜系统，按时做额外的分区备份。`（づ￣3￣）づ`
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Redirecting to https://yaojie-shen.github.io/post/KDE%E6%A1%8C%E9%9D%A2%E7%BE%8E%E5%8C%96%E6%8C%87%E5%8D%97/</title>
+<meta http-equiv="refresh" content="0; URL=https://yaojie-shen.github.io/post/KDE%E6%A1%8C%E9%9D%A2%E7%BE%8E%E5%8C%96%E6%8C%87%E5%8D%97/">
+<link rel="canonical" href="https://yaojie-shen.github.io/post/KDE%E6%A1%8C%E9%9D%A2%E7%BE%8E%E5%8C%96%E6%8C%87%E5%8D%97/">

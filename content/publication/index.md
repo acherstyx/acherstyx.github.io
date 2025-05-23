@@ -46,3 +46,9 @@ tr, td, th {
    text-align: left;
 }
 </style>
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Redirecting to https://yaojie-shen.github.io/publication/</title>
+<meta http-equiv="refresh" content="0; URL=https://yaojie-shen.github.io/publication/">
+<link rel="canonical" href="https://yaojie-shen.github.io/publication/">
